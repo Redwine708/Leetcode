@@ -45,7 +45,7 @@ public:
             arr[pi++] = curr->val;
             curr = curr -> next;
         }
-        for(int i = 0 ; i + k < pi ; i += k)
+        for(int i = 0 ; i + k <= pi ; i += k)
         {
             Segment(arr, i , i + k);
         }
