@@ -1,4 +1,5 @@
-//LeetCode : dynamic programing 
+//LeetCode : dynamic programing 42
+//This solution calculate the answear by increment every step 
 #include<vector>
 #include<iostream>
 using namespace std;
@@ -41,3 +42,5 @@ int main()
     Solution s;
     cout<<s.trap(height);
 }
+//T(^2n)
+//O(1)
